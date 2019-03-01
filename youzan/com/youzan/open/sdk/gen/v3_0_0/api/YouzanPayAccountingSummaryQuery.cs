@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPayAccountingSummaryQueryResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayAccountingSummaryQueryResult;
-	using YouzanPayAccountingSummaryQueryParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayAccountingSummaryQueryParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPayAccountingSummaryQueryResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayAccountingSummaryQueryResult;
+    using YouzanPayAccountingSummaryQueryParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayAccountingSummaryQueryParams;
 
-	public class YouzanPayAccountingSummaryQuery : AbstractAPI <YouzanPayAccountingSummaryQueryParams, YouzanPayAccountingSummaryQueryResult>
+    public class YouzanPayAccountingSummaryQuery : AbstractAPI <YouzanPayAccountingSummaryQueryParams, YouzanPayAccountingSummaryQueryResult>
 	{
 
 		public YouzanPayAccountingSummaryQuery()

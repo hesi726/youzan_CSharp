@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsOnlineDelayResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineDelayResult;
-	using YouzanLogisticsOnlineDelayParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineDelayParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsOnlineDelayResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineDelayResult;
+    using YouzanLogisticsOnlineDelayParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineDelayParams;
 
-	public class YouzanLogisticsOnlineDelay : AbstractAPI <YouzanLogisticsOnlineDelayParams, YouzanLogisticsOnlineDelayResult>
+    public class YouzanLogisticsOnlineDelay : AbstractAPI <YouzanLogisticsOnlineDelayParams, YouzanLogisticsOnlineDelayResult>
 	{
 
 		public YouzanLogisticsOnlineDelay()

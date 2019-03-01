@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMaterialsStoragePlatformImgUploadResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsStoragePlatformImgUploadResult;
-	using YouzanMaterialsStoragePlatformImgUploadParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsStoragePlatformImgUploadParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMaterialsStoragePlatformImgUploadResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsStoragePlatformImgUploadResult;
+    using YouzanMaterialsStoragePlatformImgUploadParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsStoragePlatformImgUploadParams;
 
-	public class YouzanMaterialsStoragePlatformImgUpload : AbstractAPI <YouzanMaterialsStoragePlatformImgUploadParams, YouzanMaterialsStoragePlatformImgUploadResult>
+    public class YouzanMaterialsStoragePlatformImgUpload : AbstractAPI <YouzanMaterialsStoragePlatformImgUploadParams, YouzanMaterialsStoragePlatformImgUploadResult>
 	{
 
 		public YouzanMaterialsStoragePlatformImgUpload()

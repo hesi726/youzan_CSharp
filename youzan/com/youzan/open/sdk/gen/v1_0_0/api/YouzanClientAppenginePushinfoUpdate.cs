@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanClientAppenginePushinfoUpdateResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppenginePushinfoUpdateResult;
-	using YouzanClientAppenginePushinfoUpdateParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppenginePushinfoUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanClientAppenginePushinfoUpdateResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppenginePushinfoUpdateResult;
+    using YouzanClientAppenginePushinfoUpdateParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppenginePushinfoUpdateParams;
 
-	public class YouzanClientAppenginePushinfoUpdate : AbstractAPI <YouzanClientAppenginePushinfoUpdateParams, YouzanClientAppenginePushinfoUpdateResult>
+    public class YouzanClientAppenginePushinfoUpdate : AbstractAPI <YouzanClientAppenginePushinfoUpdateParams, YouzanClientAppenginePushinfoUpdateResult>
 	{
 
 		public YouzanClientAppenginePushinfoUpdate()

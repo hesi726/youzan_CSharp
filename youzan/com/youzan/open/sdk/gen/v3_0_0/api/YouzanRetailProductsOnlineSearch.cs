@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRetailProductsOnlineSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineSearchResult;
-	using YouzanRetailProductsOnlineSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineSearchParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRetailProductsOnlineSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineSearchResult;
+    using YouzanRetailProductsOnlineSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineSearchParams;
 
-	public class YouzanRetailProductsOnlineSearch : AbstractAPI <YouzanRetailProductsOnlineSearchParams, YouzanRetailProductsOnlineSearchResult>
+    public class YouzanRetailProductsOnlineSearch : AbstractAPI <YouzanRetailProductsOnlineSearchParams, YouzanRetailProductsOnlineSearchResult>
 	{
 
 		public YouzanRetailProductsOnlineSearch()

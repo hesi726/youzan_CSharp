@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeStarUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeStarUpdateResult;
-	using YouzanTradeStarUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeStarUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeStarUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeStarUpdateResult;
+    using YouzanTradeStarUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeStarUpdateParams;
 
-	public class YouzanTradeStarUpdate : AbstractAPI <YouzanTradeStarUpdateParams, YouzanTradeStarUpdateResult>
+    public class YouzanTradeStarUpdate : AbstractAPI <YouzanTradeStarUpdateParams, YouzanTradeStarUpdateResult>
 	{
 
 		public YouzanTradeStarUpdate()

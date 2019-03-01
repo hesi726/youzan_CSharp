@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanCrmCustomerPointsChangelogGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsChangelogGetResult;
-	using YouzanCrmCustomerPointsChangelogGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsChangelogGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanCrmCustomerPointsChangelogGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsChangelogGetResult;
+    using YouzanCrmCustomerPointsChangelogGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsChangelogGetParams;
 
-	public class YouzanCrmCustomerPointsChangelogGet : AbstractAPI <YouzanCrmCustomerPointsChangelogGetParams, YouzanCrmCustomerPointsChangelogGetResult>
+    public class YouzanCrmCustomerPointsChangelogGet : AbstractAPI <YouzanCrmCustomerPointsChangelogGetParams, YouzanCrmCustomerPointsChangelogGetResult>
 	{
 
 		public YouzanCrmCustomerPointsChangelogGet()

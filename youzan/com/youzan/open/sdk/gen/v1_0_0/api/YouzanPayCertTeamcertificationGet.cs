@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPayCertTeamcertificationGetResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanPayCertTeamcertificationGetResult;
-	using YouzanPayCertTeamcertificationGetParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanPayCertTeamcertificationGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPayCertTeamcertificationGetResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanPayCertTeamcertificationGetResult;
+    using YouzanPayCertTeamcertificationGetParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanPayCertTeamcertificationGetParams;
 
-	public class YouzanPayCertTeamcertificationGet : AbstractAPI <YouzanPayCertTeamcertificationGetParams, YouzanPayCertTeamcertificationGetResult>
+    public class YouzanPayCertTeamcertificationGet : AbstractAPI <YouzanPayCertTeamcertificationGetParams, YouzanPayCertTeamcertificationGetResult>
 	{
 
 		public YouzanPayCertTeamcertificationGet()

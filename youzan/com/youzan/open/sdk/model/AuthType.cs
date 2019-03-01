@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace com.youzan.open.sdk.model
+﻿namespace com.youzan.open.sdk.model
 {
 
     public enum AuthType

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeSignItemCloseResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSignItemCloseResult;
-	using YouzanTradeSignItemCloseParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSignItemCloseParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeSignItemCloseResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSignItemCloseResult;
+    using YouzanTradeSignItemCloseParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSignItemCloseParams;
 
-	public class YouzanTradeSignItemClose : AbstractAPI <YouzanTradeSignItemCloseParams, YouzanTradeSignItemCloseResult>
+    public class YouzanTradeSignItemClose : AbstractAPI <YouzanTradeSignItemCloseParams, YouzanTradeSignItemCloseResult>
 	{
 
 		public YouzanTradeSignItemClose()

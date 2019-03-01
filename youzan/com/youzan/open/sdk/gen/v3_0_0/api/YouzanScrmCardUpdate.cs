@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanScrmCardUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardUpdateResult;
-	using YouzanScrmCardUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanScrmCardUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardUpdateResult;
+    using YouzanScrmCardUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardUpdateParams;
 
-	public class YouzanScrmCardUpdate : AbstractAPI <YouzanScrmCardUpdateParams, YouzanScrmCardUpdateResult>
+    public class YouzanScrmCardUpdate : AbstractAPI <YouzanScrmCardUpdateParams, YouzanScrmCardUpdateResult>
 	{
 
 		public YouzanScrmCardUpdate()

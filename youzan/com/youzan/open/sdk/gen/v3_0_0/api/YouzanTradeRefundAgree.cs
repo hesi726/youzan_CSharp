@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeRefundAgreeResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundAgreeResult;
-	using YouzanTradeRefundAgreeParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundAgreeParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeRefundAgreeResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundAgreeResult;
+    using YouzanTradeRefundAgreeParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundAgreeParams;
 
-	public class YouzanTradeRefundAgree : AbstractAPI <YouzanTradeRefundAgreeParams, YouzanTradeRefundAgreeResult>
+    public class YouzanTradeRefundAgree : AbstractAPI <YouzanTradeRefundAgreeParams, YouzanTradeRefundAgreeResult>
 	{
 
 		public YouzanTradeRefundAgree()

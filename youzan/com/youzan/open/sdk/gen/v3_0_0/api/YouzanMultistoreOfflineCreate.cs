@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMultistoreOfflineCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineCreateResult;
-	using YouzanMultistoreOfflineCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMultistoreOfflineCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineCreateResult;
+    using YouzanMultistoreOfflineCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineCreateParams;
 
-	public class YouzanMultistoreOfflineCreate : AbstractAPI <YouzanMultistoreOfflineCreateParams, YouzanMultistoreOfflineCreateResult>
+    public class YouzanMultistoreOfflineCreate : AbstractAPI <YouzanMultistoreOfflineCreateParams, YouzanMultistoreOfflineCreateResult>
 	{
 
 		public YouzanMultistoreOfflineCreate()

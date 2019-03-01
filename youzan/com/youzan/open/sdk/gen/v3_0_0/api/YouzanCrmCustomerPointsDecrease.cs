@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanCrmCustomerPointsDecreaseResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsDecreaseResult;
-	using YouzanCrmCustomerPointsDecreaseParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsDecreaseParams;
+    using com.youzan.open.sdk.api;
+    using YouzanCrmCustomerPointsDecreaseResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsDecreaseResult;
+    using YouzanCrmCustomerPointsDecreaseParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsDecreaseParams;
 
-	public class YouzanCrmCustomerPointsDecrease : AbstractAPI <YouzanCrmCustomerPointsDecreaseParams, YouzanCrmCustomerPointsDecreaseResult>
+    public class YouzanCrmCustomerPointsDecrease : AbstractAPI <YouzanCrmCustomerPointsDecreaseParams, YouzanCrmCustomerPointsDecreaseResult>
 	{
 
 		public YouzanCrmCustomerPointsDecrease()

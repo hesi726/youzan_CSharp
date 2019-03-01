@@ -4,14 +4,13 @@ using System.Collections.Generic;
 namespace com.youzan.open.sdk.api
 {
 
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using APIResult = com.youzan.open.sdk.model.APIResult;
+    using APIParams = com.youzan.open.sdk.model.APIParams;
 
-	/// <summary>
-	/// @author ph0ly
-	/// @time 2016-11-28
-	/// </summary>
-	public interface API<TParam>
+    /// <summary>
+    /// @author ph0ly
+    /// @time 2016-11-28
+    /// </summary>
+    public interface API<TParam>
         where TParam: APIParams
 	{
 

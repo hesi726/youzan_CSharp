@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeBillCancelGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillCancelGetResult;
-	using YouzanTradeBillCancelGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillCancelGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeBillCancelGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillCancelGetResult;
+    using YouzanTradeBillCancelGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillCancelGetParams;
 
-	public class YouzanTradeBillCancelGet : AbstractAPI <YouzanTradeBillCancelGetParams, YouzanTradeBillCancelGetResult>
+    public class YouzanTradeBillCancelGet : AbstractAPI <YouzanTradeBillCancelGetParams, YouzanTradeBillCancelGetResult>
 	{
 
 		public YouzanTradeBillCancelGet()

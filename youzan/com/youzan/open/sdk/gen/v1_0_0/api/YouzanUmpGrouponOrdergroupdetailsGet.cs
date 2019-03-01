@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpGrouponOrdergroupdetailsGetResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanUmpGrouponOrdergroupdetailsGetResult;
-	using YouzanUmpGrouponOrdergroupdetailsGetParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanUmpGrouponOrdergroupdetailsGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpGrouponOrdergroupdetailsGetResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanUmpGrouponOrdergroupdetailsGetResult;
+    using YouzanUmpGrouponOrdergroupdetailsGetParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanUmpGrouponOrdergroupdetailsGetParams;
 
-	public class YouzanUmpGrouponOrdergroupdetailsGet : AbstractAPI <YouzanUmpGrouponOrdergroupdetailsGetParams, YouzanUmpGrouponOrdergroupdetailsGetResult>
+    public class YouzanUmpGrouponOrdergroupdetailsGet : AbstractAPI <YouzanUmpGrouponOrdergroupdetailsGetParams, YouzanUmpGrouponOrdergroupdetailsGetResult>
 	{
 
 		public YouzanUmpGrouponOrdergroupdetailsGet()

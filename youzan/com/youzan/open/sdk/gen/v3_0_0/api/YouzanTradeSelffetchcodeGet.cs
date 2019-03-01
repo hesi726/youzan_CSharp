@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeSelffetchcodeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSelffetchcodeGetResult;
-	using YouzanTradeSelffetchcodeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSelffetchcodeGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeSelffetchcodeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSelffetchcodeGetResult;
+    using YouzanTradeSelffetchcodeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeSelffetchcodeGetParams;
 
-	public class YouzanTradeSelffetchcodeGet : AbstractAPI <YouzanTradeSelffetchcodeGetParams, YouzanTradeSelffetchcodeGetResult>
+    public class YouzanTradeSelffetchcodeGet : AbstractAPI <YouzanTradeSelffetchcodeGetParams, YouzanTradeSelffetchcodeGetResult>
 	{
 
 		public YouzanTradeSelffetchcodeGet()

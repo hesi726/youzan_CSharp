@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMultistoreOfflineSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineSearchResult;
-	using YouzanMultistoreOfflineSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineSearchParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMultistoreOfflineSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineSearchResult;
+    using YouzanMultistoreOfflineSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineSearchParams;
 
-	public class YouzanMultistoreOfflineSearch : AbstractAPI <YouzanMultistoreOfflineSearchParams, YouzanMultistoreOfflineSearchResult>
+    public class YouzanMultistoreOfflineSearch : AbstractAPI <YouzanMultistoreOfflineSearchParams, YouzanMultistoreOfflineSearchResult>
 	{
 
 		public YouzanMultistoreOfflineSearch()

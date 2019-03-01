@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanScrmCardDisableResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardDisableResult;
-	using YouzanScrmCardDisableParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardDisableParams;
+    using com.youzan.open.sdk.api;
+    using YouzanScrmCardDisableResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardDisableResult;
+    using YouzanScrmCardDisableParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCardDisableParams;
 
-	public class YouzanScrmCardDisable : AbstractAPI <YouzanScrmCardDisableParams, YouzanScrmCardDisableResult>
+    public class YouzanScrmCardDisable : AbstractAPI <YouzanScrmCardDisableParams, YouzanScrmCardDisableResult>
 	{
 
 		public YouzanScrmCardDisable()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsLocalSetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsLocalSetResult;
-	using YouzanLogisticsLocalSetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsLocalSetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsLocalSetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsLocalSetResult;
+    using YouzanLogisticsLocalSetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsLocalSetParams;
 
-	public class YouzanLogisticsLocalSet : AbstractAPI <YouzanLogisticsLocalSetParams, YouzanLogisticsLocalSetResult>
+    public class YouzanLogisticsLocalSet : AbstractAPI <YouzanLogisticsLocalSetParams, YouzanLogisticsLocalSetResult>
 	{
 
 		public YouzanLogisticsLocalSet()

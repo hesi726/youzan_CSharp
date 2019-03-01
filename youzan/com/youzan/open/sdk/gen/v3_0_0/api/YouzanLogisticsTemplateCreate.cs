@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsTemplateCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateCreateResult;
-	using YouzanLogisticsTemplateCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsTemplateCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateCreateResult;
+    using YouzanLogisticsTemplateCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateCreateParams;
 
-	public class YouzanLogisticsTemplateCreate : AbstractAPI <YouzanLogisticsTemplateCreateParams, YouzanLogisticsTemplateCreateResult>
+    public class YouzanLogisticsTemplateCreate : AbstractAPI <YouzanLogisticsTemplateCreateParams, YouzanLogisticsTemplateCreateResult>
 	{
 
 		public YouzanLogisticsTemplateCreate()

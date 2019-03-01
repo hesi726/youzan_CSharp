@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeVirtualticketVerifyticketResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualticketVerifyticketResult;
-	using YouzanTradeVirtualticketVerifyticketParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualticketVerifyticketParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeVirtualticketVerifyticketResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualticketVerifyticketResult;
+    using YouzanTradeVirtualticketVerifyticketParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualticketVerifyticketParams;
 
-	public class YouzanTradeVirtualticketVerifyticket : AbstractAPI <YouzanTradeVirtualticketVerifyticketParams, YouzanTradeVirtualticketVerifyticketResult>
+    public class YouzanTradeVirtualticketVerifyticket : AbstractAPI <YouzanTradeVirtualticketVerifyticketParams, YouzanTradeVirtualticketVerifyticketResult>
 	{
 
 		public YouzanTradeVirtualticketVerifyticket()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMaterialsVideoUploadPublishResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadPublishResult;
-	using YouzanMaterialsVideoUploadPublishParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadPublishParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMaterialsVideoUploadPublishResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadPublishResult;
+    using YouzanMaterialsVideoUploadPublishParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadPublishParams;
 
-	public class YouzanMaterialsVideoUploadPublish : AbstractAPI <YouzanMaterialsVideoUploadPublishParams, YouzanMaterialsVideoUploadPublishResult>
+    public class YouzanMaterialsVideoUploadPublish : AbstractAPI <YouzanMaterialsVideoUploadPublishParams, YouzanMaterialsVideoUploadPublishResult>
 	{
 
 		public YouzanMaterialsVideoUploadPublish()

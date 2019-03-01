@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsFeeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsFeeGetResult;
-	using YouzanLogisticsFeeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsFeeGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsFeeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsFeeGetResult;
+    using YouzanLogisticsFeeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsFeeGetParams;
 
-	public class YouzanLogisticsFeeGet : AbstractAPI <YouzanLogisticsFeeGetParams, YouzanLogisticsFeeGetResult>
+    public class YouzanLogisticsFeeGet : AbstractAPI <YouzanLogisticsFeeGetParams, YouzanLogisticsFeeGetResult>
 	{
 
 		public YouzanLogisticsFeeGet()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_1_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanScrmCustomerGetResult = com.youzan.open.sdk.gen.v3_1_0.model.YouzanScrmCustomerGetResult;
-	using YouzanScrmCustomerGetParams = com.youzan.open.sdk.gen.v3_1_0.model.YouzanScrmCustomerGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanScrmCustomerGetResult = com.youzan.open.sdk.gen.v3_1_0.model.YouzanScrmCustomerGetResult;
+    using YouzanScrmCustomerGetParams = com.youzan.open.sdk.gen.v3_1_0.model.YouzanScrmCustomerGetParams;
 
-	public class YouzanScrmCustomerGet : AbstractAPI <YouzanScrmCustomerGetParams, YouzanScrmCustomerGetResult>
+    public class YouzanScrmCustomerGet : AbstractAPI <YouzanScrmCustomerGetParams, YouzanScrmCustomerGetResult>
 	{
 
 		public YouzanScrmCustomerGet()

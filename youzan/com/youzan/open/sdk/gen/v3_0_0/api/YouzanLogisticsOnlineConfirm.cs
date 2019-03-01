@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsOnlineConfirmResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineConfirmResult;
-	using YouzanLogisticsOnlineConfirmParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineConfirmParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsOnlineConfirmResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineConfirmResult;
+    using YouzanLogisticsOnlineConfirmParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineConfirmParams;
 
-	public class YouzanLogisticsOnlineConfirm : AbstractAPI <YouzanLogisticsOnlineConfirmParams, YouzanLogisticsOnlineConfirmResult>
+    public class YouzanLogisticsOnlineConfirm : AbstractAPI <YouzanLogisticsOnlineConfirmParams, YouzanLogisticsOnlineConfirmResult>
 	{
 
 		public YouzanLogisticsOnlineConfirm()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemHotelRoomSetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemHotelRoomSetResult;
-	using YouzanItemHotelRoomSetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemHotelRoomSetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemHotelRoomSetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemHotelRoomSetResult;
+    using YouzanItemHotelRoomSetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemHotelRoomSetParams;
 
-	public class YouzanItemHotelRoomSet : AbstractAPI <YouzanItemHotelRoomSetParams, YouzanItemHotelRoomSetResult>
+    public class YouzanItemHotelRoomSet : AbstractAPI <YouzanItemHotelRoomSetParams, YouzanItemHotelRoomSetResult>
 	{
 
 		public YouzanItemHotelRoomSet()

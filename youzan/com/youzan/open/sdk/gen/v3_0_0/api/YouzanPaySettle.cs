@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPaySettleResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySettleResult;
-	using YouzanPaySettleParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySettleParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPaySettleResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySettleResult;
+    using YouzanPaySettleParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySettleParams;
 
-	public class YouzanPaySettle : AbstractAPI <YouzanPaySettleParams, YouzanPaySettleResult>
+    public class YouzanPaySettle : AbstractAPI <YouzanPaySettleParams, YouzanPaySettleResult>
 	{
 
 		public YouzanPaySettle()

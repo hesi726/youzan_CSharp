@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeRefundConditionGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundConditionGetResult;
-	using YouzanTradeRefundConditionGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundConditionGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeRefundConditionGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundConditionGetResult;
+    using YouzanTradeRefundConditionGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeRefundConditionGetParams;
 
-	public class YouzanTradeRefundConditionGet : AbstractAPI <YouzanTradeRefundConditionGetParams, YouzanTradeRefundConditionGetResult>
+    public class YouzanTradeRefundConditionGet : AbstractAPI <YouzanTradeRefundConditionGetParams, YouzanTradeRefundConditionGetResult>
 	{
 
 		public YouzanTradeRefundConditionGet()

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace youzan.com.youzan.push
+﻿namespace youzan.com.youzan.push
 {
     /// <summary>
     /// 有赞推送的消息类型枚举，但注意是字符串，避免未定义的消息类型导致接收消息出错;

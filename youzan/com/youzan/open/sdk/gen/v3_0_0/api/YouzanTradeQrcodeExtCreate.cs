@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeQrcodeExtCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeExtCreateResult;
-	using YouzanTradeQrcodeExtCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeExtCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeQrcodeExtCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeExtCreateResult;
+    using YouzanTradeQrcodeExtCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeExtCreateParams;
 
-	public class YouzanTradeQrcodeExtCreate : AbstractAPI <YouzanTradeQrcodeExtCreateParams, YouzanTradeQrcodeExtCreateResult>
+    public class YouzanTradeQrcodeExtCreate : AbstractAPI <YouzanTradeQrcodeExtCreateParams, YouzanTradeQrcodeExtCreateResult>
 	{
 
 		public YouzanTradeQrcodeExtCreate()

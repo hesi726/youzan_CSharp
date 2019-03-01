@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRegionsGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRegionsGetResult;
-	using YouzanRegionsGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRegionsGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRegionsGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRegionsGetResult;
+    using YouzanRegionsGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRegionsGetParams;
 
-	public class YouzanRegionsGet : AbstractAPI <YouzanRegionsGetParams, YouzanRegionsGetResult>
+    public class YouzanRegionsGet : AbstractAPI <YouzanRegionsGetParams, YouzanRegionsGetResult>
 	{
 
 		public YouzanRegionsGet()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemUpdateDelistingResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemUpdateDelistingResult;
-	using YouzanItemUpdateDelistingParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemUpdateDelistingParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemUpdateDelistingResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemUpdateDelistingResult;
+    using YouzanItemUpdateDelistingParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemUpdateDelistingParams;
 
-	public class YouzanItemUpdateDelisting : AbstractAPI <YouzanItemUpdateDelistingParams, YouzanItemUpdateDelistingResult>
+    public class YouzanItemUpdateDelisting : AbstractAPI <YouzanItemUpdateDelistingParams, YouzanItemUpdateDelistingResult>
 	{
 
 		public YouzanItemUpdateDelisting()

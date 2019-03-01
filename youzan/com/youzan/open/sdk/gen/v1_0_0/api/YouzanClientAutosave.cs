@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanClientAutosaveResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAutosaveResult;
-	using YouzanClientAutosaveParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAutosaveParams;
+    using com.youzan.open.sdk.api;
+    using YouzanClientAutosaveResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAutosaveResult;
+    using YouzanClientAutosaveParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAutosaveParams;
 
-	public class YouzanClientAutosave : AbstractAPI <YouzanClientAutosaveParams, YouzanClientAutosaveResult>
+    public class YouzanClientAutosave : AbstractAPI <YouzanClientAutosaveParams, YouzanClientAutosaveResult>
 	{
 
 		public YouzanClientAutosave()

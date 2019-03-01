@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpPromocardDetailGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromocardDetailGetResult;
-	using YouzanUmpPromocardDetailGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromocardDetailGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpPromocardDetailGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromocardDetailGetResult;
+    using YouzanUmpPromocardDetailGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromocardDetailGetParams;
 
-	public class YouzanUmpPromocardDetailGet : AbstractAPI <YouzanUmpPromocardDetailGetParams, YouzanUmpPromocardDetailGetResult>
+    public class YouzanUmpPromocardDetailGet : AbstractAPI <YouzanUmpPromocardDetailGetParams, YouzanUmpPromocardDetailGetResult>
 	{
 
 		public YouzanUmpPromocardDetailGet()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpCouponsUnfinishedSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponsUnfinishedSearchResult;
-	using YouzanUmpCouponsUnfinishedSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponsUnfinishedSearchParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpCouponsUnfinishedSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponsUnfinishedSearchResult;
+    using YouzanUmpCouponsUnfinishedSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponsUnfinishedSearchParams;
 
-	public class YouzanUmpCouponsUnfinishedSearch : AbstractAPI <YouzanUmpCouponsUnfinishedSearchParams, YouzanUmpCouponsUnfinishedSearchResult>
+    public class YouzanUmpCouponsUnfinishedSearch : AbstractAPI <YouzanUmpCouponsUnfinishedSearchParams, YouzanUmpCouponsUnfinishedSearchResult>
 	{
 
 		public YouzanUmpCouponsUnfinishedSearch()

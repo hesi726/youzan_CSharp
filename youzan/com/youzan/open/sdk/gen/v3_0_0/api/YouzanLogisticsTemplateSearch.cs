@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsTemplateSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateSearchResult;
-	using YouzanLogisticsTemplateSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateSearchParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsTemplateSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateSearchResult;
+    using YouzanLogisticsTemplateSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateSearchParams;
 
-	public class YouzanLogisticsTemplateSearch : AbstractAPI <YouzanLogisticsTemplateSearchParams, YouzanLogisticsTemplateSearchResult>
+    public class YouzanLogisticsTemplateSearch : AbstractAPI <YouzanLogisticsTemplateSearchParams, YouzanLogisticsTemplateSearchResult>
 	{
 
 		public YouzanLogisticsTemplateSearch()

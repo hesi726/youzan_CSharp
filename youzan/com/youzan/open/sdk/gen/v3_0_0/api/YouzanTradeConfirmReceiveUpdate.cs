@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeConfirmReceiveUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeConfirmReceiveUpdateResult;
-	using YouzanTradeConfirmReceiveUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeConfirmReceiveUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeConfirmReceiveUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeConfirmReceiveUpdateResult;
+    using YouzanTradeConfirmReceiveUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeConfirmReceiveUpdateParams;
 
-	public class YouzanTradeConfirmReceiveUpdate : AbstractAPI <YouzanTradeConfirmReceiveUpdateParams, YouzanTradeConfirmReceiveUpdateResult>
+    public class YouzanTradeConfirmReceiveUpdate : AbstractAPI <YouzanTradeConfirmReceiveUpdateParams, YouzanTradeConfirmReceiveUpdateResult>
 	{
 
 		public YouzanTradeConfirmReceiveUpdate()

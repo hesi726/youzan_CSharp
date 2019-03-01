@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRetailStockSellOutResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockSellOutResult;
-	using YouzanRetailStockSellOutParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockSellOutParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRetailStockSellOutResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockSellOutResult;
+    using YouzanRetailStockSellOutParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockSellOutParams;
 
-	public class YouzanRetailStockSellOut : AbstractAPI <YouzanRetailStockSellOutParams, YouzanRetailStockSellOutResult>
+    public class YouzanRetailStockSellOut : AbstractAPI <YouzanRetailStockSellOutParams, YouzanRetailStockSellOutResult>
 	{
 
 		public YouzanRetailStockSellOut()

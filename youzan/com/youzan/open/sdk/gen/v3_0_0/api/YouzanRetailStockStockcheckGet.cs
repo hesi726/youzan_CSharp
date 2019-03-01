@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRetailStockStockcheckGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockStockcheckGetResult;
-	using YouzanRetailStockStockcheckGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockStockcheckGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRetailStockStockcheckGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockStockcheckGetResult;
+    using YouzanRetailStockStockcheckGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailStockStockcheckGetParams;
 
-	public class YouzanRetailStockStockcheckGet : AbstractAPI <YouzanRetailStockStockcheckGetParams, YouzanRetailStockStockcheckGetResult>
+    public class YouzanRetailStockStockcheckGet : AbstractAPI <YouzanRetailStockStockcheckGetParams, YouzanRetailStockStockcheckGetResult>
 	{
 
 		public YouzanRetailStockStockcheckGet()

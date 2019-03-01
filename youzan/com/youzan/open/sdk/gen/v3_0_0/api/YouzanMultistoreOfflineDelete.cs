@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMultistoreOfflineDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineDeleteResult;
-	using YouzanMultistoreOfflineDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMultistoreOfflineDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineDeleteResult;
+    using YouzanMultistoreOfflineDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreOfflineDeleteParams;
 
-	public class YouzanMultistoreOfflineDelete : AbstractAPI <YouzanMultistoreOfflineDeleteParams, YouzanMultistoreOfflineDeleteResult>
+    public class YouzanMultistoreOfflineDelete : AbstractAPI <YouzanMultistoreOfflineDeleteParams, YouzanMultistoreOfflineDeleteResult>
 	{
 
 		public YouzanMultistoreOfflineDelete()

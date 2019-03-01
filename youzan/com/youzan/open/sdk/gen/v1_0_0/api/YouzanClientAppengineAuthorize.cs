@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanClientAppengineAuthorizeResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppengineAuthorizeResult;
-	using YouzanClientAppengineAuthorizeParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppengineAuthorizeParams;
+    using com.youzan.open.sdk.api;
+    using YouzanClientAppengineAuthorizeResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppengineAuthorizeResult;
+    using YouzanClientAppengineAuthorizeParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanClientAppengineAuthorizeParams;
 
-	public class YouzanClientAppengineAuthorize : AbstractAPI <YouzanClientAppengineAuthorizeParams, YouzanClientAppengineAuthorizeResult>
+    public class YouzanClientAppengineAuthorize : AbstractAPI <YouzanClientAppengineAuthorizeParams, YouzanClientAppengineAuthorizeResult>
 	{
 
 		public YouzanClientAppengineAuthorize()

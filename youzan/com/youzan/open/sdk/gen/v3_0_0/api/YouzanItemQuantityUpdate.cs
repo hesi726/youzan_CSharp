@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemQuantityUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemQuantityUpdateResult;
-	using YouzanItemQuantityUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemQuantityUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemQuantityUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemQuantityUpdateResult;
+    using YouzanItemQuantityUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemQuantityUpdateParams;
 
-	public class YouzanItemQuantityUpdate : AbstractAPI <YouzanItemQuantityUpdateParams, YouzanItemQuantityUpdateResult>
+    public class YouzanItemQuantityUpdate : AbstractAPI <YouzanItemQuantityUpdateParams, YouzanItemQuantityUpdateResult>
 	{
 
 		public YouzanItemQuantityUpdate()

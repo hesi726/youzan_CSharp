@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeBillGoodsUrlGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillGoodsUrlGetResult;
-	using YouzanTradeBillGoodsUrlGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillGoodsUrlGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeBillGoodsUrlGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillGoodsUrlGetResult;
+    using YouzanTradeBillGoodsUrlGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeBillGoodsUrlGetParams;
 
-	public class YouzanTradeBillGoodsUrlGet : AbstractAPI <YouzanTradeBillGoodsUrlGetParams, YouzanTradeBillGoodsUrlGetResult>
+    public class YouzanTradeBillGoodsUrlGet : AbstractAPI <YouzanTradeBillGoodsUrlGetParams, YouzanTradeBillGoodsUrlGetResult>
 	{
 
 		public YouzanTradeBillGoodsUrlGet()

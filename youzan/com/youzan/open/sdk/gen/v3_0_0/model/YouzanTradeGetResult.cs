@@ -1,5 +1,4 @@
 ﻿using com.youzan.open.sdk.model;
-using Newtonsoft.Json;
 using System;
 
 namespace com.youzan.open.sdk.gen.v3_0_0.model

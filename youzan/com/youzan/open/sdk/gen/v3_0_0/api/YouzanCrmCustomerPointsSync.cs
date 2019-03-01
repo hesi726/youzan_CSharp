@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanCrmCustomerPointsSyncResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsSyncResult;
-	using YouzanCrmCustomerPointsSyncParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsSyncParams;
+    using com.youzan.open.sdk.api;
+    using YouzanCrmCustomerPointsSyncResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsSyncResult;
+    using YouzanCrmCustomerPointsSyncParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanCrmCustomerPointsSyncParams;
 
-	public class YouzanCrmCustomerPointsSync : AbstractAPI <YouzanCrmCustomerPointsSyncParams, YouzanCrmCustomerPointsSyncResult>
+    public class YouzanCrmCustomerPointsSync : AbstractAPI <YouzanCrmCustomerPointsSyncParams, YouzanCrmCustomerPointsSyncResult>
 	{
 
 		public YouzanCrmCustomerPointsSync()

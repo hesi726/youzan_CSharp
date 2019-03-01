@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMaterialsVideoUploadConfirmResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadConfirmResult;
-	using YouzanMaterialsVideoUploadConfirmParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadConfirmParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMaterialsVideoUploadConfirmResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadConfirmResult;
+    using YouzanMaterialsVideoUploadConfirmParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadConfirmParams;
 
-	public class YouzanMaterialsVideoUploadConfirm : AbstractAPI <YouzanMaterialsVideoUploadConfirmParams, YouzanMaterialsVideoUploadConfirmResult>
+    public class YouzanMaterialsVideoUploadConfirm : AbstractAPI <YouzanMaterialsVideoUploadConfirmParams, YouzanMaterialsVideoUploadConfirmResult>
 	{
 
 		public YouzanMaterialsVideoUploadConfirm()

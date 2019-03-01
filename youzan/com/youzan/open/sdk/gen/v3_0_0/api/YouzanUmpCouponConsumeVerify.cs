@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpCouponConsumeVerifyResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeVerifyResult;
-	using YouzanUmpCouponConsumeVerifyParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeVerifyParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpCouponConsumeVerifyResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeVerifyResult;
+    using YouzanUmpCouponConsumeVerifyParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeVerifyParams;
 
-	public class YouzanUmpCouponConsumeVerify : AbstractAPI <YouzanUmpCouponConsumeVerifyParams, YouzanUmpCouponConsumeVerifyResult>
+    public class YouzanUmpCouponConsumeVerify : AbstractAPI <YouzanUmpCouponConsumeVerifyParams, YouzanUmpCouponConsumeVerifyResult>
 	{
 
 		public YouzanUmpCouponConsumeVerify()

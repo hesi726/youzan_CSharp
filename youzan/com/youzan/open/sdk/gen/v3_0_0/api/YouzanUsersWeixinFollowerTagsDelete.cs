@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUsersWeixinFollowerTagsDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsDeleteResult;
-	using YouzanUsersWeixinFollowerTagsDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUsersWeixinFollowerTagsDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsDeleteResult;
+    using YouzanUsersWeixinFollowerTagsDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsDeleteParams;
 
-	public class YouzanUsersWeixinFollowerTagsDelete : AbstractAPI <YouzanUsersWeixinFollowerTagsDeleteParams, YouzanUsersWeixinFollowerTagsDeleteResult>
+    public class YouzanUsersWeixinFollowerTagsDelete : AbstractAPI <YouzanUsersWeixinFollowerTagsDeleteParams, YouzanUsersWeixinFollowerTagsDeleteResult>
 	{
 
 		public YouzanUsersWeixinFollowerTagsDelete()

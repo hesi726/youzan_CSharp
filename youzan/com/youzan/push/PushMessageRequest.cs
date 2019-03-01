@@ -1,14 +1,10 @@
-﻿using com.youzan.open.sdk.gen.v3_0_0.model;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Web;
 
 namespace youzan.com.youzan.push
-{    
+{
     /// <summary>
     /// 推送消息的接入请求
     /// https://www.youzanyun.com/docs/guide/3401/3448

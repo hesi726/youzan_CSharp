@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeQrcodeHasoutidGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeHasoutidGetResult;
-	using YouzanTradeQrcodeHasoutidGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeHasoutidGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeQrcodeHasoutidGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeHasoutidGetResult;
+    using YouzanTradeQrcodeHasoutidGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeQrcodeHasoutidGetParams;
 
-	public class YouzanTradeQrcodeHasoutidGet : AbstractAPI <YouzanTradeQrcodeHasoutidGetParams, YouzanTradeQrcodeHasoutidGetResult>
+    public class YouzanTradeQrcodeHasoutidGet : AbstractAPI <YouzanTradeQrcodeHasoutidGetParams, YouzanTradeQrcodeHasoutidGetResult>
 	{
 
 		public YouzanTradeQrcodeHasoutidGet()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanSalesmanItemsGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanItemsGetResult;
-	using YouzanSalesmanItemsGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanItemsGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanSalesmanItemsGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanItemsGetResult;
+    using YouzanSalesmanItemsGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanItemsGetParams;
 
-	public class YouzanSalesmanItemsGet : AbstractAPI <YouzanSalesmanItemsGetParams, YouzanSalesmanItemsGetResult>
+    public class YouzanSalesmanItemsGet : AbstractAPI <YouzanSalesmanItemsGetParams, YouzanSalesmanItemsGetResult>
 	{
 
 		public YouzanSalesmanItemsGet()

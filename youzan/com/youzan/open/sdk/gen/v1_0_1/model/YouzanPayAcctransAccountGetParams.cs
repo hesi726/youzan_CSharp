@@ -1,19 +1,17 @@
 ﻿using System.Collections.Generic;
-using youzan.com.youzan.open.sdk.model;
 
 namespace com.youzan.open.sdk.gen.v1_0_1.model
 {
     ////using Maps = com.google.common.collect.Maps;
-	using global::youzan.com.youzan.open.sdk.model;
+    using global::youzan.com.youzan.open.sdk.model;
 
     ////using Multimap = com.google.common.collect.Multimap;
-	using global::youzan.com.youzan.open.sdk.model;
 
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using ByteWrapper = com.youzan.open.sdk.model.ByteWrapper;
-	using FileParams = com.youzan.open.sdk.model.FileParams;
+    using APIParams = com.youzan.open.sdk.model.APIParams;
+    using ByteWrapper = com.youzan.open.sdk.model.ByteWrapper;
+    using FileParams = com.youzan.open.sdk.model.FileParams;
 
-	public class YouzanPayAcctransAccountGetParams : APIParams, FileParams
+    public class YouzanPayAcctransAccountGetParams : APIParams, FileParams
 	{
 
 		/// <summary>

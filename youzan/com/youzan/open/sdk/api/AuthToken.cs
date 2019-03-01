@@ -1,16 +1,8 @@
-﻿using com.youzan.open.sdk.api;
-using com.youzan.open.sdk.model;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using youzan;
+﻿using System;
 
 namespace youzan.com.youzan.open.sdk
 {
-   
+
     /// <summary>
     /// 有赞的令牌类;
     /// </summary>

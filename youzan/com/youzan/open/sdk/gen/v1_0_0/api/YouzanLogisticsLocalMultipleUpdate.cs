@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsLocalMultipleUpdateResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanLogisticsLocalMultipleUpdateResult;
-	using YouzanLogisticsLocalMultipleUpdateParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanLogisticsLocalMultipleUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsLocalMultipleUpdateResult = com.youzan.open.sdk.gen.v1_0_0.model.YouzanLogisticsLocalMultipleUpdateResult;
+    using YouzanLogisticsLocalMultipleUpdateParams = com.youzan.open.sdk.gen.v1_0_0.model.YouzanLogisticsLocalMultipleUpdateParams;
 
-	public class YouzanLogisticsLocalMultipleUpdate : AbstractAPI <YouzanLogisticsLocalMultipleUpdateParams, YouzanLogisticsLocalMultipleUpdateResult>
+    public class YouzanLogisticsLocalMultipleUpdate : AbstractAPI <YouzanLogisticsLocalMultipleUpdateParams, YouzanLogisticsLocalMultipleUpdateResult>
 	{
 
 		public YouzanLogisticsLocalMultipleUpdate()

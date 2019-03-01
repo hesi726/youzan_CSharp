@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRetailProductSkusConfirmationDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductSkusConfirmationDeleteResult;
-	using YouzanRetailProductSkusConfirmationDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductSkusConfirmationDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRetailProductSkusConfirmationDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductSkusConfirmationDeleteResult;
+    using YouzanRetailProductSkusConfirmationDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductSkusConfirmationDeleteParams;
 
-	public class YouzanRetailProductSkusConfirmationDelete : AbstractAPI <YouzanRetailProductSkusConfirmationDeleteParams, YouzanRetailProductSkusConfirmationDeleteResult>
+    public class YouzanRetailProductSkusConfirmationDelete : AbstractAPI <YouzanRetailProductSkusConfirmationDeleteParams, YouzanRetailProductSkusConfirmationDeleteResult>
 	{
 
 		public YouzanRetailProductSkusConfirmationDelete()

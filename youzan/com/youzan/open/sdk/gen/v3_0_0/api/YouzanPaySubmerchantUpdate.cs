@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPaySubmerchantUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySubmerchantUpdateResult;
-	using YouzanPaySubmerchantUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySubmerchantUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPaySubmerchantUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySubmerchantUpdateResult;
+    using YouzanPaySubmerchantUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPaySubmerchantUpdateParams;
 
-	public class YouzanPaySubmerchantUpdate : AbstractAPI <YouzanPaySubmerchantUpdateParams, YouzanPaySubmerchantUpdateResult>
+    public class YouzanPaySubmerchantUpdate : AbstractAPI <YouzanPaySubmerchantUpdateParams, YouzanPaySubmerchantUpdateResult>
 	{
 
 		public YouzanPaySubmerchantUpdate()

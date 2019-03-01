@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUserWeixinOpenidGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserWeixinOpenidGetResult;
-	using YouzanUserWeixinOpenidGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserWeixinOpenidGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUserWeixinOpenidGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserWeixinOpenidGetResult;
+    using YouzanUserWeixinOpenidGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserWeixinOpenidGetParams;
 
-	public class YouzanUserWeixinOpenidGet : AbstractAPI <YouzanUserWeixinOpenidGetParams, YouzanUserWeixinOpenidGetResult>
+    public class YouzanUserWeixinOpenidGet : AbstractAPI <YouzanUserWeixinOpenidGetParams, YouzanUserWeixinOpenidGetResult>
 	{
 
 		public YouzanUserWeixinOpenidGet()

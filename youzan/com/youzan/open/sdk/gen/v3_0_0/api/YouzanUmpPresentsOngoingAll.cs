@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpPresentsOngoingAllResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentsOngoingAllResult;
-	using YouzanUmpPresentsOngoingAllParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentsOngoingAllParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpPresentsOngoingAllResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentsOngoingAllResult;
+    using YouzanUmpPresentsOngoingAllParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentsOngoingAllParams;
 
-	public class YouzanUmpPresentsOngoingAll : AbstractAPI <YouzanUmpPresentsOngoingAllParams, YouzanUmpPresentsOngoingAllResult>
+    public class YouzanUmpPresentsOngoingAll : AbstractAPI <YouzanUmpPresentsOngoingAllParams, YouzanUmpPresentsOngoingAllResult>
 	{
 
 		public YouzanUmpPresentsOngoingAll()

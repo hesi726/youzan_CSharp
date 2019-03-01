@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpPresentGiveResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentGiveResult;
-	using YouzanUmpPresentGiveParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentGiveParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpPresentGiveResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentGiveResult;
+    using YouzanUmpPresentGiveParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPresentGiveParams;
 
-	public class YouzanUmpPresentGive : AbstractAPI <YouzanUmpPresentGiveParams, YouzanUmpPresentGiveResult>
+    public class YouzanUmpPresentGive : AbstractAPI <YouzanUmpPresentGiveParams, YouzanUmpPresentGiveResult>
 	{
 
 		public YouzanUmpPresentGive()

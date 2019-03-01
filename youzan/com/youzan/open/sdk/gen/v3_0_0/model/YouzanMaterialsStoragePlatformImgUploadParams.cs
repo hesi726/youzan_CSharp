@@ -2,7 +2,6 @@
 
 namespace com.youzan.open.sdk.gen.v3_0_0.model
 {
-    using com.youzan.open.sdk.model;
     using System.Linq;
     using APIParams = com.youzan.open.sdk.model.APIParams;
     using ByteWrapper = com.youzan.open.sdk.model.ByteWrapper;

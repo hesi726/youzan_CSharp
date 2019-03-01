@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace youzan.com.youzan.push
 {
-    
+
     /// <summary>
     /// https://www.youzanyun.com/docs/guide/3401/3456
     /// 商品基础信息事件 ITEM_INFO

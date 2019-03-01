@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeCartEmptyResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeCartEmptyResult;
-	using YouzanTradeCartEmptyParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeCartEmptyParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeCartEmptyResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeCartEmptyResult;
+    using YouzanTradeCartEmptyParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeCartEmptyParams;
 
-	public class YouzanTradeCartEmpty : AbstractAPI <YouzanTradeCartEmptyParams, YouzanTradeCartEmptyResult>
+    public class YouzanTradeCartEmpty : AbstractAPI <YouzanTradeCartEmptyParams, YouzanTradeCartEmptyResult>
 	{
 
 		public YouzanTradeCartEmpty()

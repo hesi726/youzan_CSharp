@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMultistoreGoodsSkuGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreGoodsSkuGetResult;
-	using YouzanMultistoreGoodsSkuGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreGoodsSkuGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMultistoreGoodsSkuGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreGoodsSkuGetResult;
+    using YouzanMultistoreGoodsSkuGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMultistoreGoodsSkuGetParams;
 
-	public class YouzanMultistoreGoodsSkuGet : AbstractAPI <YouzanMultistoreGoodsSkuGetParams, YouzanMultistoreGoodsSkuGetResult>
+    public class YouzanMultistoreGoodsSkuGet : AbstractAPI <YouzanMultistoreGoodsSkuGetParams, YouzanMultistoreGoodsSkuGetResult>
 	{
 
 		public YouzanMultistoreGoodsSkuGet()

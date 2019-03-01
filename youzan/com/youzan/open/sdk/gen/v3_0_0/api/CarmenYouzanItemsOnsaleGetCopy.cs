@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using CarmenYouzanItemsOnsaleGetCopyResult = com.youzan.open.sdk.gen.v3_0_0.model.CarmenYouzanItemsOnsaleGetCopyResult;
-	using CarmenYouzanItemsOnsaleGetCopyParams = com.youzan.open.sdk.gen.v3_0_0.model.CarmenYouzanItemsOnsaleGetCopyParams;
+    using com.youzan.open.sdk.api;
+    using CarmenYouzanItemsOnsaleGetCopyResult = com.youzan.open.sdk.gen.v3_0_0.model.CarmenYouzanItemsOnsaleGetCopyResult;
+    using CarmenYouzanItemsOnsaleGetCopyParams = com.youzan.open.sdk.gen.v3_0_0.model.CarmenYouzanItemsOnsaleGetCopyParams;
 
-	public class CarmenYouzanItemsOnsaleGetCopy : AbstractAPI <CarmenYouzanItemsOnsaleGetCopyParams, CarmenYouzanItemsOnsaleGetCopyResult>
+    public class CarmenYouzanItemsOnsaleGetCopy : AbstractAPI <CarmenYouzanItemsOnsaleGetCopyParams, CarmenYouzanItemsOnsaleGetCopyResult>
 	{
 
 		public CarmenYouzanItemsOnsaleGetCopy()

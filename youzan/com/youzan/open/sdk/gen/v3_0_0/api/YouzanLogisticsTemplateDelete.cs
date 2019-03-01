@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsTemplateDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateDeleteResult;
-	using YouzanLogisticsTemplateDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsTemplateDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateDeleteResult;
+    using YouzanLogisticsTemplateDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsTemplateDeleteParams;
 
-	public class YouzanLogisticsTemplateDelete : AbstractAPI <YouzanLogisticsTemplateDeleteParams, YouzanLogisticsTemplateDeleteResult>
+    public class YouzanLogisticsTemplateDelete : AbstractAPI <YouzanLogisticsTemplateDeleteParams, YouzanLogisticsTemplateDeleteResult>
 	{
 
 		public YouzanLogisticsTemplateDelete()

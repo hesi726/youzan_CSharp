@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradesQrGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradesQrGetResult;
-	using YouzanTradesQrGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradesQrGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradesQrGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradesQrGetResult;
+    using YouzanTradesQrGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradesQrGetParams;
 
-	public class YouzanTradesQrGet : AbstractAPI <YouzanTradesQrGetParams, YouzanTradesQrGetResult>
+    public class YouzanTradesQrGet : AbstractAPI <YouzanTradesQrGetParams, YouzanTradesQrGetResult>
 	{
 
 		public YouzanTradesQrGet()

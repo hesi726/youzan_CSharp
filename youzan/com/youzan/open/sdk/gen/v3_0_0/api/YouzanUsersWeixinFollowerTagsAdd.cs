@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUsersWeixinFollowerTagsAddResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsAddResult;
-	using YouzanUsersWeixinFollowerTagsAddParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsAddParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUsersWeixinFollowerTagsAddResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsAddResult;
+    using YouzanUsersWeixinFollowerTagsAddParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUsersWeixinFollowerTagsAddParams;
 
-	public class YouzanUsersWeixinFollowerTagsAdd : AbstractAPI <YouzanUsersWeixinFollowerTagsAddParams, YouzanUsersWeixinFollowerTagsAddResult>
+    public class YouzanUsersWeixinFollowerTagsAdd : AbstractAPI <YouzanUsersWeixinFollowerTagsAddParams, YouzanUsersWeixinFollowerTagsAddResult>
 	{
 
 		public YouzanUsersWeixinFollowerTagsAdd()

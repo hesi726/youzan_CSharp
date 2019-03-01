@@ -1,9 +1,7 @@
 ﻿using com.youzan.open.sdk.api;
 using com.youzan.open.sdk.model;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using youzan.com.youzan.open.sdk;
 using YouZanSdkNetCore.Auth;

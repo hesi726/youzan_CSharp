@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpPromotionGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromotionGetResult;
-	using YouzanUmpPromotionGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromotionGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpPromotionGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromotionGetResult;
+    using YouzanUmpPromotionGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpPromotionGetParams;
 
-	public class YouzanUmpPromotionGet : AbstractAPI <YouzanUmpPromotionGetParams, YouzanUmpPromotionGetResult>
+    public class YouzanUmpPromotionGet : AbstractAPI <YouzanUmpPromotionGetParams, YouzanUmpPromotionGetResult>
 	{
 
 		public YouzanUmpPromotionGet()

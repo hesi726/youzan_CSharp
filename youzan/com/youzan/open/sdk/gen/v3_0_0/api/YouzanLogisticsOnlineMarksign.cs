@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsOnlineMarksignResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineMarksignResult;
-	using YouzanLogisticsOnlineMarksignParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineMarksignParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsOnlineMarksignResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineMarksignResult;
+    using YouzanLogisticsOnlineMarksignParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsOnlineMarksignParams;
 
-	public class YouzanLogisticsOnlineMarksign : AbstractAPI <YouzanLogisticsOnlineMarksignParams, YouzanLogisticsOnlineMarksignResult>
+    public class YouzanLogisticsOnlineMarksign : AbstractAPI <YouzanLogisticsOnlineMarksignParams, YouzanLogisticsOnlineMarksignResult>
 	{
 
 		public YouzanLogisticsOnlineMarksign()

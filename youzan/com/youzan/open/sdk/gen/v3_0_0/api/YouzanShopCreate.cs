@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanShopCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanShopCreateResult;
-	using YouzanShopCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanShopCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanShopCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanShopCreateResult;
+    using YouzanShopCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanShopCreateParams;
 
-	public class YouzanShopCreate : AbstractAPI <YouzanShopCreateParams, YouzanShopCreateResult>
+    public class YouzanShopCreate : AbstractAPI <YouzanShopCreateParams, YouzanShopCreateResult>
 	{
 
 		public YouzanShopCreate()

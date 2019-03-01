@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v1_0_1.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPayAcctransBillDetailGetListResult = com.youzan.open.sdk.gen.v1_0_1.model.YouzanPayAcctransBillDetailGetListResult;
-	using YouzanPayAcctransBillDetailGetListParams = com.youzan.open.sdk.gen.v1_0_1.model.YouzanPayAcctransBillDetailGetListParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPayAcctransBillDetailGetListResult = com.youzan.open.sdk.gen.v1_0_1.model.YouzanPayAcctransBillDetailGetListResult;
+    using YouzanPayAcctransBillDetailGetListParams = com.youzan.open.sdk.gen.v1_0_1.model.YouzanPayAcctransBillDetailGetListParams;
 
-	public class YouzanPayAcctransBillDetailGetList : AbstractAPI <YouzanPayAcctransBillDetailGetListParams, YouzanPayAcctransBillDetailGetListResult>
+    public class YouzanPayAcctransBillDetailGetList : AbstractAPI <YouzanPayAcctransBillDetailGetListParams, YouzanPayAcctransBillDetailGetListResult>
 	{
 
 		public YouzanPayAcctransBillDetailGetList()

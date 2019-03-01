@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanTradeVirtualcodeApplyResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualcodeApplyResult;
-	using YouzanTradeVirtualcodeApplyParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualcodeApplyParams;
+    using com.youzan.open.sdk.api;
+    using YouzanTradeVirtualcodeApplyResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualcodeApplyResult;
+    using YouzanTradeVirtualcodeApplyParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanTradeVirtualcodeApplyParams;
 
-	public class YouzanTradeVirtualcodeApply : AbstractAPI <YouzanTradeVirtualcodeApplyParams, YouzanTradeVirtualcodeApplyResult>
+    public class YouzanTradeVirtualcodeApply : AbstractAPI <YouzanTradeVirtualcodeApplyParams, YouzanTradeVirtualcodeApplyResult>
 	{
 
 		public YouzanTradeVirtualcodeApply()

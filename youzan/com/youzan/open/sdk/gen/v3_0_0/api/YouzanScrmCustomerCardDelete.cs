@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanScrmCustomerCardDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCustomerCardDeleteResult;
-	using YouzanScrmCustomerCardDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCustomerCardDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanScrmCustomerCardDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCustomerCardDeleteResult;
+    using YouzanScrmCustomerCardDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanScrmCustomerCardDeleteParams;
 
-	public class YouzanScrmCustomerCardDelete : AbstractAPI <YouzanScrmCustomerCardDeleteParams, YouzanScrmCustomerCardDeleteResult>
+    public class YouzanScrmCustomerCardDelete : AbstractAPI <YouzanScrmCustomerCardDeleteParams, YouzanScrmCustomerCardDeleteResult>
 	{
 
 		public YouzanScrmCustomerCardDelete()

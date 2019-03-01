@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpCouponConsumeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeGetResult;
-	using YouzanUmpCouponConsumeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpCouponConsumeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeGetResult;
+    using YouzanUmpCouponConsumeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpCouponConsumeGetParams;
 
-	public class YouzanUmpCouponConsumeGet : AbstractAPI <YouzanUmpCouponConsumeGetParams, YouzanUmpCouponConsumeGetResult>
+    public class YouzanUmpCouponConsumeGet : AbstractAPI <YouzanUmpCouponConsumeGetParams, YouzanUmpCouponConsumeGetResult>
 	{
 
 		public YouzanUmpCouponConsumeGet()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUserAddressGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserAddressGetResult;
-	using YouzanUserAddressGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserAddressGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUserAddressGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserAddressGetResult;
+    using YouzanUserAddressGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUserAddressGetParams;
 
-	public class YouzanUserAddressGet : AbstractAPI <YouzanUserAddressGetParams, YouzanUserAddressGetResult>
+    public class YouzanUserAddressGet : AbstractAPI <YouzanUserAddressGetParams, YouzanUserAddressGetResult>
 	{
 
 		public YouzanUserAddressGet()

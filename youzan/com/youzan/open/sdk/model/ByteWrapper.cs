@@ -3,29 +3,23 @@ using System.IO;
 
 namespace com.youzan.open.sdk.model
 {
+    ////using ContentType = org.apache.http.entity.ContentType;
 
-	////using ContentType = org.apache.http.entity.ContentType;
-	using global::youzan.com.youzan.open.sdk.model;
+    ////using ByteArrayBody = org.apache.http.entity.mime.content.ByteArrayBody;
 
-	////using ByteArrayBody = org.apache.http.entity.mime.content.ByteArrayBody;
-	using global::youzan.com.youzan.open.sdk.model;
+    ////using ContentBody = org.apache.http.entity.mime.content.ContentBody;
 
-	////using ContentBody = org.apache.http.entity.mime.content.ContentBody;
-	using global::youzan.com.youzan.open.sdk.model;
+    ////using FileBody = org.apache.http.entity.mime.content.FileBody;
 
-	////using FileBody = org.apache.http.entity.mime.content.FileBody;
-	using global::youzan.com.youzan.open.sdk.model;
-
-	////using InputStreamBody = org.apache.http.entity.mime.content.InputStreamBody;
-	using global::youzan.com.youzan.open.sdk.model;
+    ////using InputStreamBody = org.apache.http.entity.mime.content.InputStreamBody;
 
 
 
-	/// <summary>
-	/// @author ph0ly
-	/// @time 2016-11-29
-	/// </summary>
-	public class ByteWrapper
+    /// <summary>
+    /// @author ph0ly
+    /// @time 2016-11-29
+    /// </summary>
+    public class ByteWrapper
 	{
 		private string name;
 		private KeyValuePair<string, string> contentBody;

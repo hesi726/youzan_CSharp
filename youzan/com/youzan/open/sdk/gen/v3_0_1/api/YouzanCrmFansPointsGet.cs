@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_1.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanCrmFansPointsGetResult = com.youzan.open.sdk.gen.v3_0_1.model.YouzanCrmFansPointsGetResult;
-	using YouzanCrmFansPointsGetParams = com.youzan.open.sdk.gen.v3_0_1.model.YouzanCrmFansPointsGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanCrmFansPointsGetResult = com.youzan.open.sdk.gen.v3_0_1.model.YouzanCrmFansPointsGetResult;
+    using YouzanCrmFansPointsGetParams = com.youzan.open.sdk.gen.v3_0_1.model.YouzanCrmFansPointsGetParams;
 
-	public class YouzanCrmFansPointsGet : AbstractAPI <YouzanCrmFansPointsGetParams, YouzanCrmFansPointsGetResult>
+    public class YouzanCrmFansPointsGet : AbstractAPI <YouzanCrmFansPointsGetParams, YouzanCrmFansPointsGetResult>
 	{
 
 		public YouzanCrmFansPointsGet()

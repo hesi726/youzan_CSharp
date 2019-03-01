@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRetailProductCategoryCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductCategoryCreateResult;
-	using YouzanRetailProductCategoryCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductCategoryCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRetailProductCategoryCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductCategoryCreateResult;
+    using YouzanRetailProductCategoryCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductCategoryCreateParams;
 
-	public class YouzanRetailProductCategoryCreate : AbstractAPI <YouzanRetailProductCategoryCreateParams, YouzanRetailProductCategoryCreateResult>
+    public class YouzanRetailProductCategoryCreate : AbstractAPI <YouzanRetailProductCategoryCreateParams, YouzanRetailProductCategoryCreateResult>
 	{
 
 		public YouzanRetailProductCategoryCreate()

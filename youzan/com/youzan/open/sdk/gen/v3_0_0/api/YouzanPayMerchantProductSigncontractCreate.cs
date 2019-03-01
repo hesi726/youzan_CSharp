@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPayMerchantProductSigncontractCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayMerchantProductSigncontractCreateResult;
-	using YouzanPayMerchantProductSigncontractCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayMerchantProductSigncontractCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPayMerchantProductSigncontractCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayMerchantProductSigncontractCreateResult;
+    using YouzanPayMerchantProductSigncontractCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayMerchantProductSigncontractCreateParams;
 
-	public class YouzanPayMerchantProductSigncontractCreate : AbstractAPI <YouzanPayMerchantProductSigncontractCreateParams, YouzanPayMerchantProductSigncontractCreateResult>
+    public class YouzanPayMerchantProductSigncontractCreate : AbstractAPI <YouzanPayMerchantProductSigncontractCreateParams, YouzanPayMerchantProductSigncontractCreateResult>
 	{
 
 		public YouzanPayMerchantProductSigncontractCreate()

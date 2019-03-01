@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanSalesmanAccountScoreSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanAccountScoreSearchResult;
-	using YouzanSalesmanAccountScoreSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanAccountScoreSearchParams;
+    using com.youzan.open.sdk.api;
+    using YouzanSalesmanAccountScoreSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanAccountScoreSearchResult;
+    using YouzanSalesmanAccountScoreSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanSalesmanAccountScoreSearchParams;
 
-	public class YouzanSalesmanAccountScoreSearch : AbstractAPI <YouzanSalesmanAccountScoreSearchParams, YouzanSalesmanAccountScoreSearchResult>
+    public class YouzanSalesmanAccountScoreSearch : AbstractAPI <YouzanSalesmanAccountScoreSearchParams, YouzanSalesmanAccountScoreSearchResult>
 	{
 
 		public YouzanSalesmanAccountScoreSearch()

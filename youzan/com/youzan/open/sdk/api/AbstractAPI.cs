@@ -5,14 +5,11 @@ using System.Linq;
 namespace com.youzan.open.sdk.api
 {
     using com.youzan.open.sdk.model;
-    using global::youzan.com.youzan.open.sdk;
     using global::youzan.com.youzan.open.sdk.api;
 
     //////using Maps = com.google.common.collect.Maps;
-    using global::youzan.com.youzan.open.sdk.model;
     using Newtonsoft.Json;
     using YouZanSdkNetCore.Core;
-    using youzan;
     using APIParams = com.youzan.open.sdk.model.APIParams;
     using global::youzan;
 

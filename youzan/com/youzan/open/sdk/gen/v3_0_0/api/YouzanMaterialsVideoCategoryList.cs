@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMaterialsVideoCategoryListResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoCategoryListResult;
-	using YouzanMaterialsVideoCategoryListParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoCategoryListParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMaterialsVideoCategoryListResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoCategoryListResult;
+    using YouzanMaterialsVideoCategoryListParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoCategoryListParams;
 
-	public class YouzanMaterialsVideoCategoryList : AbstractAPI <YouzanMaterialsVideoCategoryListParams, YouzanMaterialsVideoCategoryListResult>
+    public class YouzanMaterialsVideoCategoryList : AbstractAPI <YouzanMaterialsVideoCategoryListParams, YouzanMaterialsVideoCategoryListResult>
 	{
 
 		public YouzanMaterialsVideoCategoryList()

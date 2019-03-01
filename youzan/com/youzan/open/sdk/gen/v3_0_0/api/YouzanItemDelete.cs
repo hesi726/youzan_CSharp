@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemDeleteResult;
-	using YouzanItemDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemDeleteResult;
+    using YouzanItemDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemDeleteParams;
 
-	public class YouzanItemDelete : AbstractAPI <YouzanItemDeleteParams, YouzanItemDeleteResult>
+    public class YouzanItemDelete : AbstractAPI <YouzanItemDeleteParams, YouzanItemDeleteResult>
 	{
 
 		public YouzanItemDelete()

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanPayQrcodeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayQrcodeGetResult;
-	using YouzanPayQrcodeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayQrcodeGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanPayQrcodeGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayQrcodeGetResult;
+    using YouzanPayQrcodeGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanPayQrcodeGetParams;
 
-	public class YouzanPayQrcodeGet : AbstractAPI <YouzanPayQrcodeGetParams, YouzanPayQrcodeGetResult>
+    public class YouzanPayQrcodeGet : AbstractAPI <YouzanPayQrcodeGetParams, YouzanPayQrcodeGetResult>
 	{
 
 		public YouzanPayQrcodeGet()

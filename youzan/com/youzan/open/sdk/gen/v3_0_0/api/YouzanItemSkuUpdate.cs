@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemSkuUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemSkuUpdateResult;
-	using YouzanItemSkuUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemSkuUpdateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemSkuUpdateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemSkuUpdateResult;
+    using YouzanItemSkuUpdateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemSkuUpdateParams;
 
-	public class YouzanItemSkuUpdate : AbstractAPI <YouzanItemSkuUpdateParams, YouzanItemSkuUpdateResult>
+    public class YouzanItemSkuUpdate : AbstractAPI <YouzanItemSkuUpdateParams, YouzanItemSkuUpdateResult>
 	{
 
 		public YouzanItemSkuUpdate()

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace youzan.com.youzan.push
+﻿namespace youzan.com.youzan.push
 {
     /// <summary>
     /// 订单备注事件 TRADE_ORDER_REMARK

@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanMaterialsVideoUploadTokenGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadTokenGetResult;
-	using YouzanMaterialsVideoUploadTokenGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadTokenGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanMaterialsVideoUploadTokenGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadTokenGetResult;
+    using YouzanMaterialsVideoUploadTokenGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanMaterialsVideoUploadTokenGetParams;
 
-	public class YouzanMaterialsVideoUploadTokenGet : AbstractAPI <YouzanMaterialsVideoUploadTokenGetParams, YouzanMaterialsVideoUploadTokenGetResult>
+    public class YouzanMaterialsVideoUploadTokenGet : AbstractAPI <YouzanMaterialsVideoUploadTokenGetParams, YouzanMaterialsVideoUploadTokenGetResult>
 	{
 
 		public YouzanMaterialsVideoUploadTokenGet()

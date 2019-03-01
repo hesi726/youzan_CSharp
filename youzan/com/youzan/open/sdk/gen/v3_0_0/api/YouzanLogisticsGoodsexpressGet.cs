@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanLogisticsGoodsexpressGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsGoodsexpressGetResult;
-	using YouzanLogisticsGoodsexpressGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsGoodsexpressGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanLogisticsGoodsexpressGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsGoodsexpressGetResult;
+    using YouzanLogisticsGoodsexpressGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanLogisticsGoodsexpressGetParams;
 
-	public class YouzanLogisticsGoodsexpressGet : AbstractAPI <YouzanLogisticsGoodsexpressGetParams, YouzanLogisticsGoodsexpressGetResult>
+    public class YouzanLogisticsGoodsexpressGet : AbstractAPI <YouzanLogisticsGoodsexpressGetParams, YouzanLogisticsGoodsexpressGetResult>
 	{
 
 		public YouzanLogisticsGoodsexpressGet()

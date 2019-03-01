@@ -1,6 +1,5 @@
 ﻿namespace com.youzan.open.sdk.gen.v3_0_0.model
 {
-    using Newtonsoft.Json;
     using APIResult = com.youzan.open.sdk.model.APIResult;
 
     public class YouzanMaterialsStoragePlatformImgUploadResult : APIResult

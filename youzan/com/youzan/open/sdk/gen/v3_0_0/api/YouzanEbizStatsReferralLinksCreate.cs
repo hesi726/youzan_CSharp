@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanEbizStatsReferralLinksCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanEbizStatsReferralLinksCreateResult;
-	using YouzanEbizStatsReferralLinksCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanEbizStatsReferralLinksCreateParams;
+    using com.youzan.open.sdk.api;
+    using YouzanEbizStatsReferralLinksCreateResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanEbizStatsReferralLinksCreateResult;
+    using YouzanEbizStatsReferralLinksCreateParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanEbizStatsReferralLinksCreateParams;
 
-	public class YouzanEbizStatsReferralLinksCreate : AbstractAPI <YouzanEbizStatsReferralLinksCreateParams, YouzanEbizStatsReferralLinksCreateResult>
+    public class YouzanEbizStatsReferralLinksCreate : AbstractAPI <YouzanEbizStatsReferralLinksCreateParams, YouzanEbizStatsReferralLinksCreateResult>
 	{
 
 		public YouzanEbizStatsReferralLinksCreate()

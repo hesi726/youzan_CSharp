@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemsInventoryGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemsInventoryGetResult;
-	using YouzanItemsInventoryGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemsInventoryGetParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemsInventoryGetResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemsInventoryGetResult;
+    using YouzanItemsInventoryGetParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemsInventoryGetParams;
 
-	public class YouzanItemsInventoryGet : AbstractAPI <YouzanItemsInventoryGetParams, YouzanItemsInventoryGetResult>
+    public class YouzanItemsInventoryGet : AbstractAPI <YouzanItemsInventoryGetParams, YouzanItemsInventoryGetResult>
 	{
 
 		public YouzanItemsInventoryGet()

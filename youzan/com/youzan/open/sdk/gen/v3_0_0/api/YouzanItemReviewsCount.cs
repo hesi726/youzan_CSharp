@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemReviewsCountResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemReviewsCountResult;
-	using YouzanItemReviewsCountParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemReviewsCountParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemReviewsCountResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemReviewsCountResult;
+    using YouzanItemReviewsCountParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemReviewsCountParams;
 
-	public class YouzanItemReviewsCount : AbstractAPI <YouzanItemReviewsCountParams, YouzanItemReviewsCountResult>
+    public class YouzanItemReviewsCount : AbstractAPI <YouzanItemReviewsCountParams, YouzanItemReviewsCountResult>
 	{
 
 		public YouzanItemReviewsCount()

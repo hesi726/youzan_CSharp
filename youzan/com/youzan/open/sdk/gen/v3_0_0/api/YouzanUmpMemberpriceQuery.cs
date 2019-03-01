@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanUmpMemberpriceQueryResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpMemberpriceQueryResult;
-	using YouzanUmpMemberpriceQueryParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpMemberpriceQueryParams;
+    using com.youzan.open.sdk.api;
+    using YouzanUmpMemberpriceQueryResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpMemberpriceQueryResult;
+    using YouzanUmpMemberpriceQueryParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanUmpMemberpriceQueryParams;
 
-	public class YouzanUmpMemberpriceQuery : AbstractAPI <YouzanUmpMemberpriceQueryParams, YouzanUmpMemberpriceQueryResult>
+    public class YouzanUmpMemberpriceQuery : AbstractAPI <YouzanUmpMemberpriceQueryParams, YouzanUmpMemberpriceQueryResult>
 	{
 
 		public YouzanUmpMemberpriceQuery()

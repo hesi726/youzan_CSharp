@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanRetailProductsOnlineDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineDeleteResult;
-	using YouzanRetailProductsOnlineDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineDeleteParams;
+    using com.youzan.open.sdk.api;
+    using YouzanRetailProductsOnlineDeleteResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineDeleteResult;
+    using YouzanRetailProductsOnlineDeleteParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanRetailProductsOnlineDeleteParams;
 
-	public class YouzanRetailProductsOnlineDelete : AbstractAPI <YouzanRetailProductsOnlineDeleteParams, YouzanRetailProductsOnlineDeleteResult>
+    public class YouzanRetailProductsOnlineDelete : AbstractAPI <YouzanRetailProductsOnlineDeleteParams, YouzanRetailProductsOnlineDeleteResult>
 	{
 
 		public YouzanRetailProductsOnlineDelete()

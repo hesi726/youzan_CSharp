@@ -3,12 +3,11 @@
 namespace com.youzan.open.sdk.gen.v3_0_0.api
 {
 
-	using com.youzan.open.sdk.api;
-	using APIParams = com.youzan.open.sdk.model.APIParams;
-	using YouzanItemStandardSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemStandardSearchResult;
-	using YouzanItemStandardSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemStandardSearchParams;
+    using com.youzan.open.sdk.api;
+    using YouzanItemStandardSearchResult = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemStandardSearchResult;
+    using YouzanItemStandardSearchParams = com.youzan.open.sdk.gen.v3_0_0.model.YouzanItemStandardSearchParams;
 
-	public class YouzanItemStandardSearch : AbstractAPI <YouzanItemStandardSearchParams, YouzanItemStandardSearchResult>
+    public class YouzanItemStandardSearch : AbstractAPI <YouzanItemStandardSearchParams, YouzanItemStandardSearchResult>
 	{
 
 		public YouzanItemStandardSearch()
