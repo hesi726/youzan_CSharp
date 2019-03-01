@@ -15,12 +15,13 @@ https://github.com/ph0ly/open-sdk-csharp （这儿是 .NetFramework 版）
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageReleaseNotes>大家可以 clone 代码自行修改（请注意版权协议, http://www.gnu.org/licenses/licenses.zh-cn.html)  
 大家如果想要修改，可以留言, 告诉我你的 github 账号，来一起进行修改;</PackageReleaseNotes>
-    <Version>0.6.0</Version>
+    <Version>0.6.1</Version>
     <PackageLicenseUrl>http://www.gnu.org/licenses/licenses.zh-cn.html</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/hesi726/youzan_csharp</PackageProjectUrl>
     <PackageTags>youzan c# sdk</PackageTags>
     <Company>daiwei</Company>
     <Authors>daiwei</Authors>
+    <RepositoryUrl>https://github.com/hesi726/youzan_csharp</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
